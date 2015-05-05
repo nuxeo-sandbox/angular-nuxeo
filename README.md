@@ -8,7 +8,7 @@ This is an on-going project, supported by Nuxeo.
 
 The `angular-nuxeo` module can be installed through bower:
 
-    $ bower install angular-nuxeo --save
+    $ bower install https://github.com/nuxeo-sandbox/angular-nuxeo.git --save
 
 ## Usage
 
