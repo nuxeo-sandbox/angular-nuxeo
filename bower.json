@@ -1,0 +1,20 @@
+{
+  "name": "angular-nuxeo",
+  "authors": [
+    "Nuxeo (http://www.nuxeo.com/)"
+  ],
+  "main": "nuxeo.js",
+  "license": "Apache",
+  "homepage": "https://github.com/nuxeo-sandbox/angular-nuxeo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.3.0",
+    "nuxeo": "0.4.2"
+  }
+}
