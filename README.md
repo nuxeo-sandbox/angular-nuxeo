@@ -67,7 +67,7 @@ nuxeoClient.connect(function(error, client) {
 becomes:
 
 ```javascript
-nuxeoClient.connect.then(function(client) {
+nuxeoClient.connect().then(function(client) {
   // OK, the returned client is connected
   console.log('Client is connected: ' + client.connected);
 }, function(err) {
