@@ -43,7 +43,7 @@
     };
 
     var operationExecute = nuxeo.Operation.prototype.execute;
-    nuxeo.Operation.prototype.execute = function(options, calback) {
+    nuxeo.Operation.prototype.execute = function(options, callback) {
       if (!angular.isUndefined(callback) || typeof options === 'function') {
         // callback
         operationExecute.call(this, options, callback);
